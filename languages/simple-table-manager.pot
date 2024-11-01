@@ -1,0 +1,416 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Simple Table Manager\n"
+"POT-Creation-Date: 2023-11-30 15:21+0000\n"
+"PO-Revision-Date: 2023-11-30 15:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: simple-table-manager.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/add.php:10
+msgid "Simple Table Manager - Add Record"
+msgstr ""
+
+#: includes/add.php:41 includes/add.php:59
+msgid "Record not saved."
+msgstr ""
+
+#: includes/add.php:44 includes/add.php:62
+msgid "Record saved."
+msgstr ""
+
+#: includes/add.php:53
+msgid "Key exists. Record not saved"
+msgstr ""
+
+#: includes/add.php:69 includes/edit.php:72
+msgid "Invalid action"
+msgstr ""
+
+#: includes/add.php:74 includes/edit.php:94 includes/list.php:55
+#, php-format
+msgid "Showing %1$d columns out of %2$d."
+msgstr ""
+
+#: includes/add.php:84 includes/columns.php:58
+msgid "Name"
+msgstr ""
+
+#: includes/add.php:85 includes/columns.php:59
+msgid "Type"
+msgstr ""
+
+#: includes/add.php:86 includes/export-csv.php:69 includes/settings.php:57
+msgid "Value"
+msgstr ""
+
+#: includes/add.php:101
+msgid "auto-incrementing field"
+msgstr ""
+
+#: includes/add.php:143 includes/edit.php:187 includes/list.php:151
+msgid "* Indicates the primary key."
+msgstr ""
+
+#: includes/add.php:149 includes/columns.php:107 includes/edit.php:193
+#: includes/export-csv.php:108 includes/settings.php:107
+msgid "Save"
+msgstr ""
+
+#: includes/columns.php:9
+msgid "Simple Table Manager - Select Visible Columns"
+msgstr ""
+
+#: includes/columns.php:39
+msgid "Visible columns list saved."
+msgstr ""
+
+#: includes/columns.php:43 includes/settings.php:38
+msgid "Error: Unknown action"
+msgstr ""
+
+#: includes/columns.php:60
+msgid "Visible"
+msgstr ""
+
+#: includes/columns.php:97
+msgid "Columns which are not visible won't show on the other tabs."
+msgstr ""
+
+#: includes/columns.php:101
+msgid "* Indicates the primary key. The primary key must be visible."
+msgstr ""
+
+#: includes/edit.php:11
+msgid "Simple Table Manager - Edit Record"
+msgstr ""
+
+#: includes/edit.php:49
+msgid "Record not updated."
+msgstr ""
+
+#: includes/edit.php:52
+msgid "Record updated."
+msgstr ""
+
+#: includes/edit.php:63
+msgid "Record not deleted."
+msgstr ""
+
+#: includes/edit.php:66
+msgid "Record deleted."
+msgstr ""
+
+#: includes/edit.php:79
+msgid "Error: Key value missing."
+msgstr ""
+
+#: includes/edit.php:88
+msgid "Record not found."
+msgstr ""
+
+#: includes/edit.php:147
+msgid "True"
+msgstr ""
+
+#: includes/edit.php:147
+msgid "False"
+msgstr ""
+
+#: includes/edit.php:203
+msgid "Delete"
+msgstr ""
+
+#: includes/edit.php:203
+msgid "Are you sure you want to delete this record?"
+msgstr ""
+
+#: includes/edit.php:214
+msgid "Return to list"
+msgstr ""
+
+#: includes/export-csv.php:10
+msgid "Simple Table Manager - Export CSV"
+msgstr ""
+
+#: includes/export-csv.php:44 includes/settings.php:34
+msgid "Settings saved"
+msgstr ""
+
+#: includes/export-csv.php:48
+msgid "Error: Invalid action."
+msgstr ""
+
+#: includes/export-csv.php:68 includes/settings.php:56
+msgid "Option"
+msgstr ""
+
+#: includes/export-csv.php:74
+msgid "CSV file name"
+msgstr ""
+
+#: includes/export-csv.php:78
+msgid "CSV encoding"
+msgstr ""
+
+#: includes/export-csv.php:85 includes/main.php:15
+msgid "Columns"
+msgstr ""
+
+#: includes/export-csv.php:89
+msgid "All columns"
+msgstr ""
+
+#: includes/export-csv.php:91
+#, php-format
+msgid "Selected %1$d columns out of %2$d"
+msgstr ""
+
+#: includes/export-csv.php:103
+msgid "The default CSV encoding is: UTF-8"
+msgstr ""
+
+#: includes/export-csv.php:117
+msgid "Export"
+msgstr ""
+
+#: includes/functions.php:58
+msgid "Invalid message type."
+msgstr ""
+
+#: includes/functions.php:155 includes/functions.php:203
+msgid "decimal"
+msgstr ""
+
+#: includes/functions.php:158
+msgid "tinyint / tiny"
+msgstr ""
+
+#: includes/functions.php:161
+msgid "smallint / short"
+msgstr ""
+
+#: includes/functions.php:164
+msgid "int / long"
+msgstr ""
+
+#: includes/functions.php:167
+msgid "float"
+msgstr ""
+
+#: includes/functions.php:170
+msgid "double"
+msgstr ""
+
+#: includes/functions.php:173
+msgid "null"
+msgstr ""
+
+#: includes/functions.php:176
+msgid "timestamp"
+msgstr ""
+
+#: includes/functions.php:179
+msgid "bigint"
+msgstr ""
+
+#: includes/functions.php:182
+msgid "mediumint / int24"
+msgstr ""
+
+#: includes/functions.php:185
+msgid "date"
+msgstr ""
+
+#: includes/functions.php:188
+msgid "time"
+msgstr ""
+
+#: includes/functions.php:191
+msgid "datetime"
+msgstr ""
+
+#: includes/functions.php:194
+msgid "year"
+msgstr ""
+
+#: includes/functions.php:197
+msgid "newdate"
+msgstr ""
+
+#: includes/functions.php:200
+msgid "bit"
+msgstr ""
+
+#: includes/functions.php:206
+msgid "enum"
+msgstr ""
+
+#: includes/functions.php:209
+msgid "set"
+msgstr ""
+
+#: includes/functions.php:212
+msgid "tiny_blob"
+msgstr ""
+
+#: includes/functions.php:215
+msgid "medium_blob"
+msgstr ""
+
+#: includes/functions.php:218
+msgid "long_blob"
+msgstr ""
+
+#: includes/functions.php:221
+msgid "blob"
+msgstr ""
+
+#: includes/functions.php:224
+msgid "varchar"
+msgstr ""
+
+#: includes/functions.php:227
+msgid "char / string / boolean"
+msgstr ""
+
+#: includes/functions.php:230
+msgid "geometry"
+msgstr ""
+
+#: includes/list.php:47
+#, php-format
+msgid "Found %1$s result for search term: \"%2$s\""
+msgstr ""
+
+#: includes/list.php:49
+#, php-format
+msgid "Found %1$s results for search term: \"%2$s\""
+msgstr ""
+
+#: includes/list.php:64
+msgid "Search"
+msgstr ""
+
+#: includes/list.php:70
+msgid "No rows found."
+msgstr ""
+
+#: includes/list.php:128 includes/main.php:17
+msgid "Edit"
+msgstr ""
+
+#: includes/list.php:155
+#, php-format
+msgid "Total %s records."
+msgstr ""
+
+#: includes/main.php:9
+msgid "You do not have permission to access this page."
+msgstr ""
+
+#: includes/main.php:14
+msgid "Settings"
+msgstr ""
+
+#: includes/main.php:16
+msgid "List"
+msgstr ""
+
+#: includes/main.php:18
+msgid "Add"
+msgstr ""
+
+#: includes/main.php:19
+msgid "Export CSV"
+msgstr ""
+
+#: includes/main.php:88
+msgid "Error: Invalid tab."
+msgstr ""
+
+#: includes/settings.php:7
+msgid "Simple Table Manager - Settings"
+msgstr ""
+
+#: includes/settings.php:62
+msgid "Table name"
+msgstr ""
+
+#: includes/settings.php:64
+msgid "Select a table ..."
+msgstr ""
+
+#: includes/settings.php:75
+msgid "Max rows per page"
+msgstr ""
+
+#: includes/settings.php:82
+msgid "Edit tab: Show unserialized objects and arrays"
+msgstr ""
+
+#: includes/settings.php:90
+msgid "Capability required to use the plugin"
+msgstr ""
+
+#: includes/settings.php:102
+msgid "Max rows per page limits: 1 to 1000."
+msgstr ""
+
+#: includes/tables.php:13
+msgid "Active table not set. Please select a table."
+msgstr ""
+
+#: includes/tables.php:20
+#, php-format
+msgid "Error: Table %s does not exist."
+msgstr ""
+
+#: includes/tables.php:41
+#, php-format
+msgid ""
+"Active table: \"%s\". Warning: This table does not have a primary key. "
+"Editing or deleting records is not possible."
+msgstr ""
+
+#: includes/tables.php:50
+#, php-format
+msgid "Active table: \"%s\""
+msgstr ""
+
+#: includes/tables.php:71
+#, php-format
+msgid "Active table: \"%s\". Error: This table has more than one primary key."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: simple-table-manager.php:73 simple-table-manager.php:74
+msgid "Simple Table Manager"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Enables editing table records and exporting them to CSV files through a "
+"minimal database interface from your dashboard."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ryo Inoue & lorro"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.topcode.co.uk/developments/simple-table-manager/"
+msgstr ""

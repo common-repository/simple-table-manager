@@ -1,0 +1,73 @@
+/* Simple Table Manager */
+
+.tstm_help {
+  color: DarkGreen;
+  font-style: oblique;
+}
+.tstm_error {
+  color: DarkRed;
+  font-style: oblique;
+}
+
+/* tables */
+
+.widefat {
+  width: auto;
+}
+
+/* list */
+
+.simple-table-manager .search {
+  margin-bottom: 16px;
+}
+.simple-table-manager .widefat.list tr:nth-child(odd) td {
+  background-color: #FFF6EE;
+}
+
+/* list navigation */
+
+.simple-table-manager .tablenav .tablenav-pages {
+  float: none;
+}
+.simple-table-manager .paging-input {
+  padding: 0 8px;
+}
+.simple-table-manager .nav-tab.disabled {
+  color: #aaa;
+  pointer-events: none;
+}
+.simple-table-manager .nav-tab.disabled:hover {
+  color: #aaa;
+  background-color: #e5e5e5;
+}
+
+/* tables for settings, columns, edit, add, export */
+
+.simple-table-manager .settings th,
+.simple-table-manager .settings td {
+  padding: 6px 16px;
+}
+.simple-table-manager .settings input[type="text"],
+.simple-table-manager .settings input[type="number"],
+.simple-table-manager .settings select {
+  width: 360px;
+  min-height: 28px;
+}
+.simple-table-manager .settings textarea,
+.simple-table-manager .settings textarea {
+  width: 360px;
+  height: 10em;
+}
+.simple-table-manager .settings input[type="date"],
+.simple-table-manager .settings input[type="time"] {
+  width: 150px;
+  min-height: 28px;
+}
+.simple-table-manager .unserialized {
+  padding: 16px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+.simple-table-manager .unserialized pre {
+  margin: 0;
+}
